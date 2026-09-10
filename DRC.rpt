@@ -1,0 +1,34 @@
+** Drc report for Power_Converter.kicad_pcb **
+** Created on 2026-09-10T17:31:45 **
+** Report includes: Errors, Warnings **
+
+** Found 4 DRC violations **
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(171.1000 mm, 65.5750 mm): Reference field of J1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(204.7000 mm, 73.0000 mm): Reference field of J2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(188.0250 mm, 69.2000 mm): Reference field of C4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(204.7000 mm, 65.7450 mm): Reference field of J3
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.9000 mm, 64.9000 mm): Zone '5V_OUT_1' [GND] on F.Cu and B.Cu, priority 0
+    @(168.9000 mm, 64.9000 mm): Zone '5V_OUT_1' [GND] on F.Cu and B.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
