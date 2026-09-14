@@ -2424,29 +2424,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -10.16 8.89 0)
+			(property "Reference" "U1"
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "RT9013-33GB"
-				(at -10.16 -8.89 0)
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "RT9013-33GB:SOT94P279X129-5N"
+			(property "Footprint" "Components_Footprint:SOT94P279X129-5N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2615,8 +2613,8 @@
 			)
 			(symbol "RT9013-33GB_0_0"
 				(rectangle
-					(start -10.16 -7.62)
-					(end 10.16 7.62)
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -6092,10 +6090,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "988e0c89-5921-4b6b-afaf-644818f0acce")
+			(uuid "988e0c89-5921-4b6b-afaf-644818f0accf")
 		)
 		(pin "1"
-			(uuid "c475faca-2ae2-4020-abfa-f14b6fccf611")
+			(uuid "c475faca-2ae2-4020-abfa-f14b6fccf612")
 		)
 		(instances
 			(project "Power_Converter"
@@ -6175,10 +6173,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "988e0c89-5921-4b6b-afaf-644818f0acce")
+			(uuid "988e0c89-5921-4b6b-afaf-644818f0acd0")
 		)
 		(pin "1"
-			(uuid "c475faca-2ae2-4020-abfa-f14b6fccf611")
+			(uuid "c475faca-2ae2-4020-abfa-f14b6fccf613")
 		)
 		(instances
 			(project "Power_Converter"
